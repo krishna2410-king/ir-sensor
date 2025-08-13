@@ -18,15 +18,15 @@ REQUIRED COMPONENTS :
 * Additional Modules (optional – buzzer, relay, motor, etc.)
 
 STEP BY STEP PROCESS OF CONNECTION :
- Power off your board.
-Identify pins on the module. Typical labels: VCC, GND, OUT (digital). Some boards also have AO (analog).
-Match voltage. Most modules work at 5 V and also at 3.3 V.
-Arduino UNO: use 5V.
-ESP32/ESP8266: prefer 3V3 (many modules still OK at 5 V, but use 3V3 if available).
-Make the connections.
-VCC → Arduino 5V (or ESP32 3V3).
-GND → Arduino GND (same ground as board).
-OUT (digital) → Arduino D2 (any digital pin works).
-If present, AO → Arduino A0 (for analog distance-like readings).
-(Optional) Tweak the onboard potentiometer. Turn it to set the detection threshold; most modules have an onboard LED that flips when an object is “seen.”
-Power on and test. Start with a simple sketch:
+*Power off your board.
+*Identify pins on the module. Typical labels: VCC, GND, OUT (digital). Some boards also have AO (analog).
+*Match voltage. Most modules work at 5 V and also at 3.3 V.
+*Arduino UNO: use 5V.
+*ESP32/ESP8266: prefer 3V3 (many modules still OK at 5 V, but use 3V3 if available).
+*Make the connections.
+*VCC → Arduino 5V (or ESP32 3V3).
+*GND → Arduino GND (same ground as board).
+*OUT (digital) → Arduino D2 (any digital pin works).
+*If present, AO → Arduino A0 (for analog distance-like readings).
+*(Optional) Tweak the onboard potentiometer. Turn it to set the detection threshold; most modules have an onboard LED that flips when an object is “seen.”
+*Power on and test. Start with a simple sketch:
